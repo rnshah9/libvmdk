@@ -1,0 +1,8 @@
+project: rnshah9/libvmdk
+target: libvmdk
+image: ghcr.io/rnshah9/playground:libvmdk
+tests:
+  - file://tests/data
+
+cmds:
+  - cmd: /usr/local/bin/vmdkinfo @@
