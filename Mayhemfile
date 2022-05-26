@@ -1,6 +1,5 @@
 project: rnshah9/libvmdk
-target: libvmdk
-image: ghcr.io/rnshah9/playground:libvmdk
+target: vmdkinfo
 tests:
   - file://tests/data
 
