@@ -1,6 +1,6 @@
-project: rnshah9/libvmdk
+project: libvmdk
 target: vmdkinfo
-tests:
+testsuite:
   - file://tests/data
 
 cmds:
